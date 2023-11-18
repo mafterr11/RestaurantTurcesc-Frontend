@@ -13,7 +13,7 @@ const Nav = () => {
   };
 
   return (
-    <div className='fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-black'>
+    <div className='fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-black bg-opacity-70'>
       <div className='max-w[1240px] mx-4 flex justify-between items-center p-5 text-white'>
         <h1 className='cursor-default font-bold text-[25px]'>
           Turkish Delirium
@@ -93,6 +93,16 @@ const Nav = () => {
             <li className='text-4xl p-4 hover:text-gray-500'>
               <Link href='/contact' className='hover'>
                 Contact
+              </Link>
+            </li>
+            <li className='text-lg mx-4'>
+              <Link href='/auth/login' className='hover'>
+                Login
+              </Link>
+            </li>
+            <li className='text-lg mx-4'>
+              <Link href='/auth/register' className='hover'>
+                Register
               </Link>
             </li>
           </ul>
