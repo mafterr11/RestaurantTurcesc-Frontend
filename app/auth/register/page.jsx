@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
-
+ 
+ 
 const Register = () => {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
