@@ -3,7 +3,7 @@ import pic1 from "../public/home-1.jpg";
 import pic2 from "../public/home-2.jpg";
 export default function Home() {
   return (
-    <div className='mt-[20rem]'>
+    <div className='sm:mt-[20rem]'>
       <div className='sm:px-40 sm:mb-[27rem]'>
         <div className=' max-w-[40rem] overflow-auto border-black border-opacity-86 rounded-15 rounded-md shadow-standard p-5 bg-black bg-opacity-70 text-white  sm:relative sm:border-[1px] sm:mx-12'>
           <h1 className='font-bold text-3xl text-center mb-5'>
@@ -21,6 +21,7 @@ export default function Home() {
           <Image
             src={pic1}
             quality={100}
+            placeholder="blur"
             className='w-[250px] rounded-md sm:w-[500px] sm:border-[1px] sm:border-solid sm:border-black'
             alt='Food picture'
           />
@@ -31,12 +32,13 @@ export default function Home() {
         <div className='mb-1 sm:relative sm:ml-32'>
           <Image
             src={pic2}
+            placeholder="blur"
             quality={100}
             className='w-[400px] rounded-md sm:w-[500px] sm:border-[1px] sm:border-solid sm:border-black'
             alt='Food picture'
           />
         </div>
-        <div className=' max-w-[40rem] overflow-auto border-black border-opacity-86 rounded-15 rounded-md shadow-standard p-5 bg-black bg-opacity-70 text-white  sm:absolute sm:top-[80rem] sm:right-[25rem] sm:border-[1px]'>
+        <div className=' max-w-[40rem] overflow-auto border-black border-opacity-86 rounded-15 rounded-md shadow-standard p-5 bg-black bg-opacity-70 text-white  sm:absolute sm:top-[80rem] sm:right-[24rem] sm:border-[1px]'>
           <h1 className='font-bold text-3xl text-center mb-5'>
             Come Join Us!
           </h1>
