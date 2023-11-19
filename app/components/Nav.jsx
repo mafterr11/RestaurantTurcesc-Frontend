@@ -25,12 +25,12 @@ const Nav = () => {
             </Link>
           </li>
           <li className='text-2xl mx-6'>
-            <Link href='/meniu' className='hover'>
+            <Link href='/menu' className='hover'>
               Menu
             </Link>
           </li>
           <li className='text-2xl mx-6'>
-            <Link href='/despre-noi' className='hover'>
+            <Link href='/about-us' className='hover'>
               About Us
             </Link>
           </li>

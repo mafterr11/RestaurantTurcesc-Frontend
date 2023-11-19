@@ -18,13 +18,13 @@ const Login = () => {
   };
 
   return (
-    <div className='max-w-[500px] mx-auto my-20 overflow-auto min-h-[300px] border-2 border-black border-opacity-86 shadow-standard p-5 rounded-15'>
+    <div className='max-w-[500px] mx-auto my-[13rem] overflow-auto min-h-[300px] border-2 border-black border-opacity-86 shadow-standard p-5 rounded-15 bg-black bg-opacity-90 text-white'>
       <h1 className='font-bold text-3xl'>Login</h1>
       <form>
         <div className='my-5'>
           <label className='block font-bold text-[20px]'>Email</label>
           <input
-            className='w-full h-10 my-2 p-2 text-lg border-[1px] border-black'
+            className='w-full h-10 my-2 p-2 text-lg border-[1px] border-black text-black'
             type='text'
             placeholder='Email'
             value={email}
@@ -35,7 +35,7 @@ const Login = () => {
         <div className='my-5'>
           <label className='block font-bold text-[20px]'>Password</label>
           <input
-            className='w-full h-10 my-2 p-2 text-lg border-[1px] border-black'
+            className='w-full h-10 my-2 p-2 text-lg border-[1px] border-black text-black'
             type='password'
             placeholder='Password'
             value={password}
