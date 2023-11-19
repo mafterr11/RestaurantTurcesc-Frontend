@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
     <html lang='en' className='h-screen bg-fixed bg-cover bg-center custom-img tracking-wide'>
       <body className={poppins.className}>
         <Nav/>
-        <main className='mt-40 sm:mt-[20rem]'>{children}</main>
+        <main className='mt-40'>{children}</main>
       </body>
     </html>
   );

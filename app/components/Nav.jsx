@@ -159,7 +159,14 @@ const Nav = () => {
                 Register
               </Link>
             </li>
+            <li>
+            <FontAwesomeIcon
+            icon={faCartShopping}
+            className='w-9 h-9 ml-3 cursor-pointer mt-6'
+          />
+            </li>
           </ul>
+          
         </div>
       </div>
     </div>

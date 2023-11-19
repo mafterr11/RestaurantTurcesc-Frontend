@@ -3,8 +3,8 @@ import pic1 from "../public/home-1.jpg";
 import pic2 from "../public/home-2.jpg";
 export default function Home() {
   return (
-    <div>
-      <div className='sm:px-40 sm:mb-[34rem]'>
+    <div className='mt-[20rem]'>
+      <div className='sm:px-40 sm:mb-[30rem]'>
         <div className=' max-w-[40rem] overflow-auto border-2 border-black border-opacity-86 rounded-15 rounded-md shadow-standard p-5 bg-black bg-opacity-70 text-white  sm:relative sm:mx-12'>
           <h1 className='font-bold text-3xl text-center mb-5'>
             Welcome To Delirium Cuisine
@@ -36,7 +36,7 @@ export default function Home() {
             alt='Food picture'
           />
         </div>
-        <div className=' max-w-[40rem] overflow-auto border-2 border-black border-opacity-86 rounded-15 rounded-md shadow-standard p-5 bg-black bg-opacity-70 text-white  sm:absolute sm:top-[75rem] sm:right-[25rem]'>
+        <div className=' max-w-[40rem] overflow-auto border-2 border-black border-opacity-86 rounded-15 rounded-md shadow-standard p-5 bg-black bg-opacity-70 text-white  sm:absolute sm:top-[80rem] sm:right-[25rem]'>
           <h1 className='font-bold text-3xl text-center mb-5'>
             Come Join Us!
           </h1>
