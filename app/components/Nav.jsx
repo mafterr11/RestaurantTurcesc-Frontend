@@ -1,24 +1,48 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 const Nav = () => {
   const [nav, setNav] = useState(false);
+  const [color, setColor] = useState('');
+  const [textColor, setTextColor] = useState('white');
 
   const handleNav = () => {
     setNav(!nav);
   };
 
+  useEffect(() => {
+    const changeColor = () => {
+      if (window.scrollY >= 90) {
+        setColor('#ffffff');
+        setTextColor('#000000');
+      } else {
+        setColor('');
+        setTextColor('#ffffff');
+      }
+    };
+    window.addEventListener('scroll', changeColor);
+  }, []);
+
   return (
-    <div className='fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-black bg-opacity-70'>
+    <div
+      style={{ backgroundColor: `${color}` }}
+      className='fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-black bg-opacity-70'
+    >
       <div className='max-w[1240px] mx-4 flex justify-between items-center p-5 text-white'>
-        <h1 className='cursor-default font-bold text-[25px]'>
+        <h1
+          style={{ color: `${textColor}` }}
+          className='cursor-default font-bold text-[25px]'
+        >
           Turkish Delirium
         </h1>
-        <ul className='hidden sm:flex justify-center items-center list-none '>
+        <ul
+          style={{ color: `${textColor}` }}
+          className='hidden sm:flex justify-center items-center list-none '
+        >
           <li className='text-2xl mx-6'>
             <Link href='/' className='hover'>
               Home
@@ -41,7 +65,10 @@ const Nav = () => {
           </li>
         </ul>
         <div className='hidden sm:flex justify-center items-center'>
-          <ul className='flex justify-center items-center'>
+          <ul
+            style={{ color: `${textColor}` }}
+            className='flex justify-center items-center'
+          >
             <li className='text-lg mx-4'>
               <Link href='/auth/login' className='hover'>
                 Login
@@ -54,6 +81,7 @@ const Nav = () => {
             </li>
           </ul>
           <FontAwesomeIcon
+            style={{ color: `${textColor}` }}
             icon={faCartShopping}
             className='w-9 h-9 ml-3 cursor-pointer'
           />
@@ -62,9 +90,17 @@ const Nav = () => {
         {/* MOBILE BUTTON */}
         <div className='block sm:hidden z-10'>
           {nav ? (
-            <AiOutlineClose size={30} onClick={handleNav} />
+            <AiOutlineClose
+              size={30}
+              onClick={handleNav}
+              style={{ color: `${textColor}` }}
+            />
           ) : (
-            <AiOutlineMenu size={30} onClick={handleNav} />
+            <AiOutlineMenu
+              size={30}
+              onClick={handleNav}
+              style={{ color: `${textColor}` }}
+            />
           )}
         </div>
         <div

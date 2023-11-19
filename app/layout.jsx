@@ -14,10 +14,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang='en' className='h-screen bg-fixed bg-cover bg-center custom-img'>
+    <html lang='en' className='h-screen bg-fixed bg-cover bg-center custom-img tracking-wide'>
       <body className={poppins.className}>
-        <Nav />
-        <main>{children}</main>
+        <Nav/>
+        <main className='mt-40 sm:mt-[20rem]'>{children}</main>
       </body>
     </html>
   );

@@ -2,6 +2,15 @@
 // import Product from "../components/Product";
 
 const Products = async () => {
+  // PRIMA METODA
+
+  const fetchProducts = async () => {
+    const res = await fetch("https://jsonplaceholder.typico.com/posts");
+    return await res.json();
+  };
+  const posts = await fetchProducts();
+
+  // A DOUA METODA
   // const [products, setProducts] = useState([]);
 
   // useEffect(() => {
@@ -18,6 +27,9 @@ const Products = async () => {
   // };
   return (
     <div>
+      {posts.map((post) => {
+        return <p>{post.title}</p>;
+      })}
       {/* {products.map((product) => (
         <Product product={product} />
       ))} */}
