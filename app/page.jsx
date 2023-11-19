@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className='mt-[20rem]'>
       <div className='sm:px-40 sm:mb-[30rem]'>
-        <div className=' max-w-[40rem] overflow-auto border-2 border-black border-opacity-86 rounded-15 rounded-md shadow-standard p-5 bg-black bg-opacity-70 text-white  sm:relative sm:mx-12'>
+        <div className=' max-w-[40rem] overflow-auto border-black border-opacity-86 rounded-15 rounded-md shadow-standard p-5 bg-black bg-opacity-70 text-white  sm:relative sm:border-[1px] sm:mx-12'>
           <h1 className='font-bold text-3xl text-center mb-5'>
             Welcome To Delirium Cuisine
           </h1>
@@ -21,7 +21,7 @@ export default function Home() {
           <Image
             src={pic1}
             quality={100}
-            className='w-[250px] rounded-md sm:w-[500px]'
+            className='w-[250px] rounded-md sm:w-[500px] sm:border-[1px] sm:border-solid sm:border-black'
             alt='Food picture'
           />
         </div>
@@ -32,11 +32,11 @@ export default function Home() {
           <Image
             src={pic2}
             quality={100}
-            className='w-[400px] rounded-md sm:w-[500px]'
+            className='w-[400px] rounded-md sm:w-[500px] sm:border-[1px] sm:border-solid sm:border-black'
             alt='Food picture'
           />
         </div>
-        <div className=' max-w-[40rem] overflow-auto border-2 border-black border-opacity-86 rounded-15 rounded-md shadow-standard p-5 bg-black bg-opacity-70 text-white  sm:absolute sm:top-[80rem] sm:right-[25rem]'>
+        <div className=' max-w-[40rem] overflow-auto border-black border-opacity-86 rounded-15 rounded-md shadow-standard p-5 bg-black bg-opacity-70 text-white  sm:absolute sm:top-[80rem] sm:right-[25rem] sm:border-[1px]'>
           <h1 className='font-bold text-3xl text-center mb-5'>
             Come Join Us!
           </h1>
