@@ -75,32 +75,50 @@ const Nav = () => {
           }
         >
           <ul>
-            <li className='text-4xl p-4 hover:text-gray-500'>
+            <li
+              className='text-4xl p-4 hover:text-gray-500'
+              onClick={handleNav}
+            >
               <Link href='/' className='hover'>
                 Home
               </Link>
             </li>
-            <li className='text-4xl p-4 hover:text-gray-500'>
+            <li
+              className='text-4xl p-4 hover:text-gray-500'
+              onClick={handleNav}
+            >
               <Link href='/meniu' className='hover'>
                 Menu
               </Link>
             </li>
-            <li className='text-4xl p-4 hover:text-gray-500'>
+            <li
+              className='text-4xl p-4 hover:text-gray-500'
+              onClick={handleNav}
+            >
               <Link href='/despre-noi' className='hover'>
                 About Us
               </Link>
             </li>
-            <li className='text-4xl p-4 hover:text-gray-500'>
+            <li
+              className='text-4xl p-4 hover:text-gray-500'
+              onClick={handleNav}
+            >
               <Link href='/contact' className='hover'>
                 Contact
               </Link>
             </li>
-            <li className='text-lg mx-4'>
+            <li
+              className='text-2xl p-4 hover:text-gray-500'
+              onClick={handleNav}
+            >
               <Link href='/auth/login' className='hover'>
                 Login
               </Link>
             </li>
-            <li className='text-lg mx-4'>
+            <li
+              className='text-2xl p-4 hover:text-gray-500'
+              onClick={handleNav}
+            >
               <Link href='/auth/register' className='hover'>
                 Register
               </Link>
