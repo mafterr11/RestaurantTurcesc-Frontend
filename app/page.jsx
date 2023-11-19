@@ -4,7 +4,7 @@ import pic2 from "../public/home-2.jpg";
 export default function Home() {
   return (
     <div className='mt-[20rem]'>
-      <div className='sm:px-40 sm:mb-[30rem]'>
+      <div className='sm:px-40 sm:mb-[27rem]'>
         <div className=' max-w-[40rem] overflow-auto border-black border-opacity-86 rounded-15 rounded-md shadow-standard p-5 bg-black bg-opacity-70 text-white  sm:relative sm:border-[1px] sm:mx-12'>
           <h1 className='font-bold text-3xl text-center mb-5'>
             Welcome To Delirium Cuisine
@@ -27,7 +27,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='sm:px-40 sm:mb-[34rem] sm: pb-[20rem]'>
+      <div className='sm:px-40 sm:mb-[27rem] sm: pb-[20rem]'>
         <div className='mb-1 sm:relative sm:ml-32'>
           <Image
             src={pic2}
