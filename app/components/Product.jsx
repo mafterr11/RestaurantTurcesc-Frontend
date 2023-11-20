@@ -2,15 +2,15 @@ import Image from "next/image";
 
 const Product = ({ product }) => {
   return (
-    <div>
-      <div className="text-white">
-        <div>
-          <Image />
+    <div className='my-12 px-24 pt-6'>
+      <div className='text-white'>
+        <div className='flex justify-between'>
+          <div>
+            <h3>{product.name}</h3>
+          </div>
+          <p className='text-lg'>{product.price} RON</p>
         </div>
-        <h3>{product.name}</h3>
         <p>{product.description}</p>
-        <p>{product.price}</p>
-        <p>{product.quantity}</p>
       </div>
     </div>
   );
