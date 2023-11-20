@@ -25,7 +25,6 @@ export const register = async (firstName, lastName, email, password) => {
     body: JSON.stringify({ firstName, lastName, email, password }),
   });
   const result = await res.json();
-  // Cookies.set("token", result.token);
   cookies().set({
     name: "token",
     value: result.token,
@@ -34,7 +33,7 @@ export const register = async (firstName, lastName, email, password) => {
 };
 
 export const logout = () => {
-  // Cookies.remove("token");
+  cookies.remove("token");
 };
 
 export const isLoggedIn = () => {
