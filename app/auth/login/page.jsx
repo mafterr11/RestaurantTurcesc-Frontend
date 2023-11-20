@@ -20,7 +20,7 @@ const Login = () => {
   return (
 
     <div className='max-w-[500px] mx-auto my-[10rem] overflow-auto min-h-[300px] border-2 border-black border-opacity-86 shadow-standard p-5 rounded-15  bg-black bg-opacity-90 text-white'>
-      <h1 className='font-bold text-3xl'>Login</h1>
+      <h1>Login</h1>
       <form>
         <div className='my-5'>
           <label className='block font-bold text-[20px]'>Email</label>

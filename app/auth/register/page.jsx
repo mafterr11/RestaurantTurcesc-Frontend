@@ -22,7 +22,7 @@ const Register = () => {
 
   return (
     <div className='max-w-[500px] mx-auto sm:my-[10rem] my-[8rem] overflow-auto min-h-[300px] border-2 border-black border-opacity-86 shadow-standard p-5 rounded-15  bg-black bg-opacity-90 text-white'>
-      <h1 className='font-bold text-3xl'>Register new account</h1>
+      <h1>Register new account</h1>
       <form>
         <div className='my-5'>
           <label className='block font-bold text-[20px]'>First Name</label>
