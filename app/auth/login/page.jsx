@@ -18,7 +18,8 @@ const Login = () => {
   };
 
   return (
-    <div className='max-w-[500px] mx-auto my-[13rem] overflow-auto min-h-[300px] border-2 border-black border-opacity-86 shadow-standard p-5 rounded-15 bg-black bg-opacity-90 text-white'>
+
+    <div className='max-w-[500px] mx-auto my-[10rem] overflow-auto min-h-[300px] border-2 border-black border-opacity-86 shadow-standard p-5 rounded-15  bg-black bg-opacity-90 text-white'>
       <h1 className='font-bold text-3xl'>Login</h1>
       <form>
         <div className='my-5'>
@@ -29,7 +30,7 @@ const Login = () => {
             placeholder='Email'
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-          />
+            />
         </div>
 
         <div className='my-5'>
@@ -40,7 +41,7 @@ const Login = () => {
             placeholder='Password'
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-          />
+            />
         </div>
         <input
           type='submit'
@@ -51,7 +52,7 @@ const Login = () => {
             e.stopPropagation();
             login();
           }}
-        />
+          />
       </form>
     </div>
   );
