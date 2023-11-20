@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const Product = ({ product }) => {
   return (
     <div className='my-12 px-24 pt-6'>
@@ -7,13 +5,33 @@ const Product = ({ product }) => {
         <div className='flex justify-between'>
           <div>
             <h3>{product.name}</h3>
+            <p>{product.description}</p>
           </div>
           <p className='text-lg'>{product.price} RON</p>
         </div>
-        <p>{product.description}</p>
+        <span className='block h-[2px] w-full decoration-dashed bg-white content-none'></span>
       </div>
     </div>
   );
 };
 
 export default Product;
+
+// const Product = ({ product }) => {
+//   return (
+//     <div className='my-12 px-24 pt-6'>
+//       <div className='text-white'>
+//         <div className='flex justify-between'>
+//           <div>
+//             <h3>{product.name}</h3>
+//             <p>{product.description}</p>
+//           </div>
+//         <p className='text-lg'>{product.price} RON</p>
+//         </div>
+//         <span className='block h-[2px] w-full decoration-dotted bg-white content-none'></span>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Product;

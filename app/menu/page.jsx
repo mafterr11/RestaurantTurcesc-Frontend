@@ -11,7 +11,7 @@ const Products = async () => {
   return (
     <div className="bg-black/40 absolute top-0 left-0 right-0 sm:py-[10rem] sm:px-40">
         <h1 className="text-white text-center text-5xl mb-24">MENU DELIRIUM</h1>
-      <div className='bg-black/60'>
+      <div className='bg-black/60 pt-2'>
       {products.map((product) => (
         <Product key={product.id} product={product} />
       ))}
