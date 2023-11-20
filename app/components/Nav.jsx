@@ -43,7 +43,7 @@ const Nav = () => {
           style={{ color: `${textColor}` }}
           className='hidden sm:flex justify-center items-center list-none '
         >
-          <li className='text-2xl mx-6'>
+          <li className='text-2xl mx-6' >
             <Link href='/' className='hover'>
               <span>Home</span>
             </Link>
