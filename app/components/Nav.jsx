@@ -35,7 +35,7 @@ const Nav = () => {
       <div className='max-w[1240px] mx-4 flex justify-between items-center p-5 text-white'>
         <h1
           style={{ color: `${textColor}` }}
-          className='cursor-default font-bold text-[25px]'
+          className='cursor-default'
         >
           Turkish Delirium
         </h1>
@@ -43,24 +43,30 @@ const Nav = () => {
           style={{ color: `${textColor}` }}
           className='hidden sm:flex justify-center items-center list-none '
         >
-          <li className='text-2xl mx-6'>
+          <li className='text-2xl mx-6' >
             <Link href='/' className='hover'>
-              Home
+              <span>Home</span>
             </Link>
           </li>
           <li className='text-2xl mx-6'>
             <Link href='/menu' className='hover'>
-              Menu
+              <span>
+                Menu
+              </span>
             </Link>
           </li>
           <li className='text-2xl mx-6'>
             <Link href='/about-us' className='hover'>
-              About Us
+              <span>
+                About Us
+              </span>
             </Link>
           </li>
           <li className='text-2xl mx-6'>
             <Link href='/contact' className='hover'>
-              Contact
+              <span>
+                Contact
+              </span>
             </Link>
           </li>
         </ul>
@@ -71,12 +77,16 @@ const Nav = () => {
           >
             <li className='text-lg mx-4'>
               <Link href='/auth/login' className='hover'>
-                Login
+                <span>
+                  Login
+                </span>
               </Link>
             </li>
             <li className='text-lg mx-4'>
               <Link href='/auth/register' className='hover'>
-                Register
+                <span>
+                  Register
+                </span>
               </Link>
             </li>
           </ul>
@@ -116,7 +126,9 @@ const Nav = () => {
               onClick={handleNav}
             >
               <Link href='/' className='hover'>
-                Home
+                <span>
+                  Home
+                </span>
               </Link>
             </li>
             <li
@@ -124,7 +136,9 @@ const Nav = () => {
               onClick={handleNav}
             >
               <Link href='/meniu' className='hover'>
-                Menu
+                <span>
+                  Menu
+                </span>
               </Link>
             </li>
             <li
@@ -132,7 +146,9 @@ const Nav = () => {
               onClick={handleNav}
             >
               <Link href='/despre-noi' className='hover'>
-                About Us
+                <span>
+                  About Us
+                </span>
               </Link>
             </li>
             <li
@@ -140,7 +156,9 @@ const Nav = () => {
               onClick={handleNav}
             >
               <Link href='/contact' className='hover'>
-                Contact
+                <span>
+                  Contact
+                </span>
               </Link>
             </li>
             <li
@@ -148,7 +166,9 @@ const Nav = () => {
               onClick={handleNav}
             >
               <Link href='/auth/login' className='hover'>
-                Login
+                <span>
+                  Login
+                </span>
               </Link>
             </li>
             <li
@@ -156,17 +176,19 @@ const Nav = () => {
               onClick={handleNav}
             >
               <Link href='/auth/register' className='hover'>
-                Register
+                <span>
+                  Register
+                </span>
               </Link>
             </li>
             <li>
-            <FontAwesomeIcon
-            icon={faCartShopping}
-            className='w-9 h-9 ml-3 cursor-pointer mt-6'
-          />
+              <FontAwesomeIcon
+                icon={faCartShopping}
+                className='w-9 h-9 ml-3 cursor-pointer mt-6'
+              />
             </li>
           </ul>
-          
+
         </div>
       </div>
     </div>

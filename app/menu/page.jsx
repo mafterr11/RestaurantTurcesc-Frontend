@@ -1,14 +1,18 @@
-// import { useEffect, useState } from "react";
-// import Product from "../components/Product";
+import Product from "../components/Product";
+import { isLoggedIn, getToken } from "../services/auth";
+
+const fetchProducts = async () => {
+  const res = await fetch("http://localhost:8080/api/v1/products/findAll", { cache: 'no-store' });
+  // console.log(res);
+  return await res.json();
+};
 
 const Products = async () => {
   // PRIMA METODA
+  const products = await fetchProducts();
 
-  const fetchProducts = async () => {
-    const res = await fetch("https://jsonplaceholder.typico.com/posts");
-    return await res.json();
-  };
-  const posts = await fetchProducts();
+  console.log(isLoggedIn());
+  console.log(getToken());
 
   // A DOUA METODA
   // const [products, setProducts] = useState([]);
@@ -27,12 +31,9 @@ const Products = async () => {
   // };
   return (
     <div>
-      {posts.map((post) => {
-        return <p>{post.title}</p>;
-      })}
-      {/* {products.map((product) => (
+      {products.map((product) => (
         <Product product={product} />
-      ))} */}
+      ))}
     </div>
   );
 };
