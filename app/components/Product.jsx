@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const Product = ({ product }) => {
   return (
-    <div className='text-white bg-black/40 absolute top-0 bottom-0 right-0 left-0'>
-      <div>
+    <div>
+      <div className="text-white">
         <div>
           <Image />
         </div>
