@@ -5,7 +5,7 @@ import "./globals.css";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer"
 
-const poppins = Poppins({ weight: ["400", "700"], subsets: ["latin"] });
+const poppins = Poppins({ weight: ["400", "500", "700"], subsets: ["latin"] });
 
 export const metadata = {
   title: "Turkish Delirium",
@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       <body className={poppins.className}>
         <Nav/>
         <main>{children}</main>
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );
