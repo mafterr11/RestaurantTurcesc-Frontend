@@ -1,7 +1,7 @@
 const Product = ({ product }) => {
   return (
     <div className='my-12 px-24 pt-6'>
-      <div className='text-white'>
+      <div className=''>
         <div className='flex justify-between'>
           <div>
             <h3>{product.name}</h3>
