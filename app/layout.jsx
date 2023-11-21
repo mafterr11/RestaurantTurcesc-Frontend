@@ -3,8 +3,9 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 // COMPONENTS
 import Nav from "./components/Nav";
+import Footer from "./components/Footer"
 
-const poppins = Poppins({ weight: ["400", "700"], subsets: ["latin"] });
+const poppins = Poppins({ weight: ["400", "500", "700"], subsets: ["latin"] });
 
 export const metadata = {
   title: "Turkish Delirium",
@@ -15,9 +16,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en' className='h-screen bg-fixed bg-cover bg-center background tracking-wide'>
-      <body className={poppins.className}>
+      <body className={`${poppins.className} text-white`}>
         <Nav/>
         <main>{children}</main>
+        {/* <Footer /> */}
       </body>
     </html>
   );

@@ -1,4 +1,3 @@
-"use client"
 import { register } from "../../services/auth";
 import Register from "../../components/Register"; 
  

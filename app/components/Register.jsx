@@ -8,7 +8,7 @@ const Register = ({ register }) => {
   const [password, setPassword] = useState("");
   return (
     <div className='overlay'>
-      <div className='max-w-[500px] mx-auto sm:my-[10rem] my-[8rem] overflow-auto min-h-[300px] border-2 border-black border-opacity-86 shadow-standard p-5 rounded-15  bg-black bg-opacity-90 text-white'>
+      <div className='max-w-[500px] mx-auto sm:my-[10rem] my-[8rem] overflow-auto min-h-[300px] border-2 border-black border-opacity-86 shadow-standard p-5 rounded-15  bg-black bg-opacity-90 '>
         <h1>Register new account</h1>
         <form>
           <div className='my-5'>
