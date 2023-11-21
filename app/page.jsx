@@ -37,7 +37,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div class="container flex md:flex-row flex-col-reverse items-center mx-auto lg:px-12 px-2 lg:mt-24 lg:gap-24 text-white">
+        <div class="container flex md:flex-row flex-col-reverse items-center mx-auto lg:px-12 px-2 lg:mt-24 lg:gap-24 ">
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-full">
             <Image
               src={pic2}
