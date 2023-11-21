@@ -7,6 +7,7 @@ const fetchProducts = async () => {
 };
 
 const Products = async () => {
+  
   const products = await fetchProducts();
   return (
     <div className="bg-black/40 absolute top-0 left-0 right-0 sm:py-[10rem] sm:px-40">

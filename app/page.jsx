@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className='sm:py-[20rem] sm:px-40 py-28 bg-black/40'>
       <div className=' sm:mb-[27rem]'>
-        <div className=' max-w-[40rem] overflow-auto border-black border-opacity-86 rounded-15 rounded-md shadow-standard p-5 bg-black bg-opacity-70 text-white  sm:relative sm:border-2 sm:mx-12'>
+        <div className=' max-w-[40rem] overflow-auto border-black border-opacity-86 rounded-15 rounded-md shadow-standard p-5 bg-black bg-opacity-50 text-white  sm:relative sm:border-2 sm:mx-12'>
           <h1 className='text-center mb-5'>
             Welcome To Delirium Cuisine
           </h1>
@@ -38,7 +38,7 @@ export default function Home() {
             alt='Food picture'
           />
         </div>
-        <div className=' max-w-[40rem] overflow-auto border-black border-opacity-86 rounded-15 rounded-md shadow-standard p-5 bg-black bg-opacity-70 text-white  sm:absolute sm:top-[80rem] sm:right-[19rem] sm:border-[1px]'>
+        <div className=' max-w-[40rem] overflow-auto border-black border-opacity-86 rounded-15 rounded-md shadow-standard p-5 bg-black bg-opacity-50 text-white  sm:absolute sm:top-[80rem] sm:right-[19rem] sm:border-[1px]'>
           <h1 className='text-center mb-5'>
             Come Join Us!
           </h1>
