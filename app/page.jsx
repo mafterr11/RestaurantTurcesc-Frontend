@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className='lg:py-[10rem] lg:px-40 pt-[4.3rem] bg-black/40'>
       <div className="bg-black/50 w-full py-16">
-        <div class="container flex items-center justify-center flex-col mx-auto px-2 mb-24 md:mb-0  text-white ">
+        <div class="container flex items-center justify-center flex-col mx-auto px-2 mb-24 md:mb-0 ">
           <div class="text-center w-full lg:w-2/3 ">
             <h1 class="sm:text-4xl text-3xl mb-4 font-medium">Welcome To Delirium Cuisine</h1>
             <p class="mb-8 leading-relaxed lg:text-lg">Even though it's situated in the heart of Bucharest, neighboring the
@@ -20,7 +20,7 @@ export default function Home() {
         </div>
 
 
-        <div class="container flex md:flex-row flex-col items-center mx-auto lg:px-12 px-2 my-12 lg:gap-24 text-white">
+        <div class="container flex md:flex-row flex-col items-center mx-auto lg:px-12 px-2 my-12 lg:gap-24">
           <div class="lg:max-w-[40rem] overflow-auto lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left lg:mb-16 md:mb-0 items-center text-center">
             <h1 class="sm:text-4xl text-3xl mb-4 font-medium text-center ">Come Join Us!
             </h1>
@@ -37,7 +37,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div class="container flex md:flex-row flex-col-reverse items-center mx-auto lg:px-12 px-2 lg:mt-24 lg:gap-24 text-white">
+        <div class="container flex md:flex-row flex-col-reverse items-center mx-auto lg:px-12 px-2 lg:mt-24 lg:gap-24 ">
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-full">
             <Image
               src={pic2}

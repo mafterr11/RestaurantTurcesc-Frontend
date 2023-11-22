@@ -7,10 +7,10 @@ const Register = ({ register }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   return (
-    <div className='overlay'>
-      <div className='max-w-[500px] mx-auto sm:my-[10rem] my-[8rem] overflow-auto min-h-[300px] border-2 border-black border-opacity-86 shadow-standard p-5 rounded-15  bg-black bg-opacity-90 text-white'>
+      <div className="overlay py-[10rem]">
+        <form className='max-w-[500px] mx-auto  overflow-auto max-h-fit border-2 border-black border-opacity-86 shadow-standard p-5 rounded-lg  bg-black bg-opacity-90 '>
         <h1>Register new account</h1>
-        <form>
+
           <div className='my-5'>
             <label className='block font-bold text-[20px]'>First Name</label>
             <input
@@ -67,7 +67,6 @@ const Register = ({ register }) => {
           />
         </form>
       </div>
-    </div>
   );
 };
 

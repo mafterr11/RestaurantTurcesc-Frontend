@@ -5,10 +5,9 @@ const Login = ({ login }) => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
   return (
-    <div className="bg-black/40 absolute top-0 bottom-0 left-0 right-0">
-    <div className='max-w-[500px] mx-auto my-[10rem] overflow-auto min-h-[300px] border-2 border-black border-opacity-86 shadow-standard p-5 rounded-15  bg-black bg-opacity-90 text-white'>
+    <div className="overlay pt-[5em]">
+      <form className='max-w-[500px] mx-auto my-[10rem] overflow-auto max-h-fit border-2 border-black border-opacity-86 shadow-standard p-5 rounded-lg  bg-black bg-opacity-90 '>
       <h1>Login</h1>
-      <form>
         <div className='my-5'>
           <label className='block font-bold text-[20px]'>Email</label>
           <input
@@ -41,7 +40,6 @@ const Login = ({ login }) => {
           }}
           />
       </form>
-    </div>
     </div>
   )
 }
