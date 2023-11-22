@@ -11,10 +11,6 @@
     @apply font-bold
   }
 
-  button {
-    @apply block bg-white text-black border-none font-bold py-[10px] px-[20px] rounded-md cursor-pointer text-[20px]
-  }
-
   .overlay {
     @apply bg-black/40 h-screen
   }
