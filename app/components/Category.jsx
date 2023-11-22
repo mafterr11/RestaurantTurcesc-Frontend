@@ -1,5 +1,6 @@
 import ProductList from "./ProductList"
-const Category = ({category}) => {
+
+const Category = ({ category }) => {
   return (
     <div>
       <h1>{category.category}</h1>

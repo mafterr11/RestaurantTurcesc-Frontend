@@ -1,6 +1,6 @@
 import { register } from "../../services/auth";
-import Register from "../../components/Register"; 
- 
+import Register from "../../components/Register";
+
 export const metadata = {
   title: "Register - Delirium",
   description: "Delirium register page",
@@ -9,7 +9,7 @@ export const metadata = {
 
 const RegisterPage = () => {
   return (
-    <Register register={register}/>
+    <Register register={register} />
   );
 };
 

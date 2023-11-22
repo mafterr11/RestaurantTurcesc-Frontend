@@ -1,11 +1,13 @@
 "use client";
-import Link from "next/link";
 import { useEffect, useState } from "react";
+import Link from "next/link";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 const Nav = () => {
+
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState('');
   const [textColor, setTextColor] = useState('white');
