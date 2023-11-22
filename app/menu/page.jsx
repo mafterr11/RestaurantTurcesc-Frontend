@@ -1,6 +1,11 @@
 import CategoryList from "../components/CategoryList";
 
-const Products = async () => {
+export const metadata = {
+  title: "Menu - Delirium",
+  description: "Turkish Delirium Menu Offerings, Authentic Turkish Dishes, Culinary Delights, Turkish Cuisine Selections, Gourmet Turkish Menu, Traditional Turkish Recipes, Chef's Specialties, Exquisite Turkish Flavors, Signature Dishes, Explore Turkish Culinary Creations",
+};
+
+const Menu = async () => {
   return (
     <div className='lg:py-[10rem] lg:px-40 pt-[4.3rem] bg-black/40'>
       <div className='bg-black/60 pt-2'>
@@ -11,4 +16,4 @@ const Products = async () => {
   );
 };
 
-export default Products;
+export default Menu;

@@ -3,6 +3,11 @@ import Link from "next/link";
 import pic1 from "../public/home-1.jpg";
 import pic2 from "../public/raw.jpg";
 
+export const metadata = {
+  description: "Turkish Delirium",
+  keywords: "Authentic Turkish Cuisine, Cultural Dining Experience, Turkish Delirium Menu Showcase, Fine Dining Hospitality, Gourmet Turkish Delights, Chef's Recommendations, Turkish Culinary Excellence, Explore Turkish Flavors, Restaurant's Cultural Fusion, Savor Authentic Turkish Dining",
+};
+
 export default function Home() {
   return (
     <div className='lg:py-[10rem] lg:px-40 pt-[4.3rem] bg-black/40'>

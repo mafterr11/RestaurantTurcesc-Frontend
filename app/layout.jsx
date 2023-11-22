@@ -10,7 +10,7 @@ const poppins = Poppins({ weight: ["400", "500", "700"], subsets: ["latin"] });
 export const metadata = {
   title: "Turkish Delirium",
   description: "Turkish themed restaurant for all the foodies out there",
-  keywords: "turkish restaurant, food, delight, sucuk, turkey, kebabs and grills, istanbul dining, authentic turkish dishes, turkish hospitality",
+  keywords: "Turkish Cuisine, Restaurant Dining, Turkish Delirium Experience, Authentic Turkish Flavors, Cultural Dining, Fine Dining Experience, Gourmet Turkish Food, Turkish Delirium Menu, Quality Hospitality, International Cuisine",
 };
 
 export default function RootLayout({ children }) {
