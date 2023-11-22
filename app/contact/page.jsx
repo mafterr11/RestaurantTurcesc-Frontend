@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import { FaInstagram } from "react-icons/fa";
 import { IoLogoFacebook } from "react-icons/io";
 import { FaTiktok } from "react-icons/fa";
@@ -25,9 +27,15 @@ const page = () => {
           <div>
           <p><strong>Program:</strong> 12:00 am - 22:00 pm </p>
           <div className="flex justify-center items-center mt-12 gap-12 ">
+          <Link target="_blank" href="https://tiktok.com/">
           <FaTiktok size={40}/>
+          </Link>
+          <Link target="_blank" href="https://www.instagram.com/">
           <FaInstagram size={40}/>
+          </Link>
+          <Link target="_blank" href="https://www.facebook.com/" >
           <IoLogoFacebook size={40}/>
+          </Link>
           </div>
           </div>
 
