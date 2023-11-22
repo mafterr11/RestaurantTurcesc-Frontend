@@ -10,7 +10,7 @@ const Footer = () => {
         <footer className="flex justify-evenly items-center p-6 gap-6 bg-black/80">
             <div className="flex justify-center items-center gap-6 text-lg">
                 <GrRestaurant size={50} className='hidden md:block' />
-                <p>Project made by <Link href="https://github.com/mafterr11" className="hover"><span>Maftei Alexandru</span></Link></p>
+                <p>Project made by <Link target="_blank" href="https://www.linkedin.com/in/maftei-alexandru/" className="hover"><span>Maftei Alexandru</span></Link></p>
             </div>
            
             <div className="flex justify-center items-center gap-4 md:gap-12">
