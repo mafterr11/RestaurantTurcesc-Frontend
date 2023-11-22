@@ -1,26 +1,27 @@
-import Link from "next/link"
+import Link from "next/link";
+import { GrRestaurant } from "react-icons/gr";
+import { FaInstagram } from "react-icons/fa";
+import { IoLogoFacebook } from "react-icons/io";
+import { FaTiktok } from "react-icons/fa";
+
 
 const Footer = () => {
     return (
-        <footer className=" bg-black/90 static right-0 bottom-0 left-0">
-            <div className="container px-5 py-8 gap-2 mx-auto flex items-center justify-center  flex-col text-xl">
-                <Link href='/' className='hover'>
-                    <span>Home</span>
+        <footer className="flex justify-evenly items-center p-6 gap-6 bg-black/80">
+            <div className="flex justify-center items-center gap-6 text-lg">
+                <GrRestaurant size={50} className='hidden md:block' />
+                <p>Copyright © 2023 - All right reserved</p>
+            </div>
+           
+            <div className="flex justify-center items-center gap-4 md:gap-12">
+                <Link target="_blank" href="https://tiktok.com/">
+                    <FaTiktok size={40} />
                 </Link>
-                <Link href='/menu' className='hover'>
-                    <span>
-                        Menu
-                    </span>
+                <Link target="_blank" href="https://www.instagram.com/">
+                    <FaInstagram size={40} />
                 </Link>
-                <Link href='/about-us' className='hover'>
-                    <span>
-                        About Us
-                    </span>
-                </Link>
-                <Link href='/contact' className='hover'>
-                    <span>
-                        Contact
-                    </span>
+                <Link target="_blank" href="https://www.facebook.com/" >
+                    <IoLogoFacebook size={40} />
                 </Link>
             </div>
         </footer>
