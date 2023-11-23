@@ -58,9 +58,9 @@ const Nav = () => {
             </Link>
           </li>
           <li className='text-2xl mx-6'>
-            <Link href='/about-us' className='hover'>
+            <Link href='/gallery' className='hover'>
               <span>
-                About Us
+                Gallery
               </span>
             </Link>
           </li>
