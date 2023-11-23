@@ -34,7 +34,7 @@ const Nav = () => {
       style={{ backgroundColor: `${color}` }}
       className='fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-black/70'
     >
-      <div className='max-w[1240px] mx-4 flex justify-between items-center p-5 '>
+      <div style={{ color: `${textColor}` }} className='max-w[1240px] mx-4 flex justify-between items-center p-5 '>
         <h1
           
           className='cursor-default'

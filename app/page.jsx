@@ -31,7 +31,7 @@ export default function Home() {
             </h1>
             <p className=" leading-relaxed lg:text-lg">If you're looking for a restaurant where you can enjoy a true Turkish feast or excellent grilled dishes in an exclusive location, our traditional Turkish wood-fired oven creates a variety of delicious dishes, including Lahmacun, Pide, or Turkish bread, delivering authentic flavors that will delight your taste buds</p>
           </div>
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-4/6 rotate-90">
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-4/6 rotate-90 border-black/70 border-[1px] border-solid">
             <Image
               src={pic1}
               quality={100}
@@ -43,7 +43,7 @@ export default function Home() {
         </div>
 
         <div className="container flex md:flex-row flex-col-reverse items-center mx-auto lg:px-12 px-2 lg:mt-24 lg:gap-24 ">
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full">
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full border-black/70 border-[1px] border-solid">
             <Image
               src={pic2}
               quality={100}
