@@ -7,7 +7,6 @@ import pic5 from "../../public/g5.jpg"
 import pic6 from "../../public/g6.jpg"
 import pic7 from "../../public/g7.jpg"
 import pic8 from "../../public/g8.jpg"
-import pic9 from "../../public/g9.jpg"
 
 const page = () => {
     return (
@@ -20,7 +19,7 @@ const page = () => {
                     <div className="flex flex-wrap md:-m-2 -m-1">
                         <div className="flex flex-wrap w-1/2">
                             <div className="md:p-2 p-1 w-full">
-                                <Image alt="gallery" quality={100} className="w-full object-cover h-full object-center block" src={pic9} />
+                                <Image alt="gallery" quality={100} className="w-full object-cover h-full object-center block" src={pic2} />
                             </div>
                             <div className="md:p-2 p-1 w-1/2">
                                 <Image alt="gallery" quality={100} className="w-full object-cover h-full object-center block" src={pic1} />

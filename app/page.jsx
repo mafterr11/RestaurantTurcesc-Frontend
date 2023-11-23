@@ -20,7 +20,7 @@ export default function Home() {
               elegant and welcoming interior. The restaurant's style mixes classic
               features with Turkish influences from where the cuisine originates,
               giving customers one-of-a-kind and memorable food experiences.</p>
-            <Link className="btn w-2/4 border-[1px] border-black" href="/menu">Menu</Link>
+            <Link className="btn w-2/4" href="/menu">Menu</Link>
           </div>
         </div>
 
