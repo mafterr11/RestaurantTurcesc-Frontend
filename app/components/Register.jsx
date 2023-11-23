@@ -10,7 +10,7 @@ const Register = ({ register }) => {
   
   return (
     <div className="overlay pt-[5.5rem] lg:pt-[10rem]">
-      <form className='max-w-[500px] mx-auto  overflow-auto max-h-fit border-2 border-black border-opacity-86 shadow-standard p-5 rounded-lg  bg-black bg-opacity-90 '>
+      <form className='max-w-[500px] mx-auto  overflow-auto max-h-fit border-2 border-black border-opacity-86 shadow-standard p-5 rounded-lg  bg-black bg-opacity-90'>
         <h1>Register new account</h1>
 
         <div className='my-5'>

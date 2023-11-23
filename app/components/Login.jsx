@@ -8,7 +8,7 @@ const Login = ({ login }) => {
 
   return (
     <div className="overlay pt-[1rem] lg:pt-[5rem]">
-      <form className='max-w-[500px] mx-auto my-[10rem] overflow-auto max-h-fit border-2 border-black border-opacity-86 shadow-standard p-5 rounded-lg  bg-black bg-opacity-90 '>
+      <form className='max-w-[500px] mx-auto my-[10rem] overflow-auto max-h-fit border-2 border-black border-opacity-86 shadow-standard p-5 rounded-lg  bg-black bg-opacity-90'>
         <h1>Login</h1>
         <div className='my-5'>
           <label className='block font-bold text-[20px]'>Email</label>

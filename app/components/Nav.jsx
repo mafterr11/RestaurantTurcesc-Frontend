@@ -1,7 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
 import Link from "next/link";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
@@ -34,16 +33,15 @@ const Nav = () => {
       style={{ backgroundColor: `${color}` }}
       className='fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-black/70'
     >
-      <div style={{ color: `${textColor}` }} className='max-w[1240px] mx-4 flex justify-between items-center p-5 '>
+      <div style={{ color: `${textColor}` }} className='max-w[1240px] mx-4 flex justify-between items-center p-5'>
         <h1
-          
           className='cursor-default'
         >
           Turkish Delirium
         </h1>
         <ul
           style={{ color: `${textColor}` }}
-          className='hidden sm:flex justify-center items-center list-none '
+          className='hidden sm:flex justify-center items-center list-none'
         >
           <li className='text-2xl mx-6' >
             <Link href='/' className='hover'>
