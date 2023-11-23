@@ -137,7 +137,7 @@ const Nav = () => {
               className='text-4xl p-4 hover:text-gray-500'
               onClick={handleNav}
             >
-              <Link href='/meniu' className='hover'>
+              <Link href='/menu' className='hover'>
                 <span>
                   Menu
                 </span>
@@ -147,9 +147,9 @@ const Nav = () => {
               className='text-4xl p-4 hover:text-gray-500'
               onClick={handleNav}
             >
-              <Link href='/despre-noi' className='hover'>
+              <Link href='/gallery' className='hover'>
                 <span>
-                  About Us
+                  Gallery
                 </span>
               </Link>
             </li>
