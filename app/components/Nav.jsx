@@ -36,7 +36,7 @@ const Nav = () => {
     >
       <div className='max-w[1240px] mx-4 flex justify-between items-center p-5 '>
         <h1
-          style={{ color: `${textColor}` }}
+          
           className='cursor-default'
         >
           Turkish Delirium
