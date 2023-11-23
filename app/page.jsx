@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import pic1 from "../public/home-1.jpg";
-import pic2 from "../public/raw.jpg";
+import pic2 from "../public/home-2.jpg";
 
 export const metadata = {
   description: "Turkish Delirium",
