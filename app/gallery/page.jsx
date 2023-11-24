@@ -11,9 +11,9 @@ import pic8 from "../../public/g8.jpg"
 export const metadata = {
     title: "Gallery - Delirium",
     description: "Gastronomic Moments Captured, Flavors through Photography, Captivating Turkish Experiences, Colorful Turkish Gastronomy, Turkish Baklava, Turkish Delight Varieties, Lahmacun",
-  };
+};
 
-const page = () => {
+const Gallery = () => {
     return (
         <div className='lg:py-[10rem] lg:px-40 pt-[4.3rem] bg-black/40'>
             <div className="bg-black/60">
@@ -57,4 +57,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Gallery;

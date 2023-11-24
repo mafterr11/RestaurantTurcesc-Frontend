@@ -26,7 +26,7 @@ export const register = async (firstName, lastName, email, password) => {
     },
     body: JSON.stringify({ firstName, lastName, email, password }),
   });
-  
+
   const result = await res.json();
   cookies().set({
     name: "token",

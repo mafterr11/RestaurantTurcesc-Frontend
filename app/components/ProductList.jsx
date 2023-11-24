@@ -2,8 +2,8 @@ import { getToken } from "../services/auth";
 import Product from "../components/Product";
 
 const fetchProducts = async (category) => {
-  const res = await fetch(`http://localhost:8080/api/v1/products/category/${category}`, 
-{ cache: 'no-store' }, { headers: { Authorization: getToken() } });
+  const res = await fetch(`http://localhost:8080/api/v1/products/category/${category}`,
+    { cache: 'no-store' }, { headers: { Authorization: getToken() } });
   return await res.json();
 };
 
@@ -18,4 +18,4 @@ const ProductList = async ({ category }) => {
   )
 }
 
-export default ProductList
+export default ProductList;
