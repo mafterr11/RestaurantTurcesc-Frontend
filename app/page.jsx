@@ -37,7 +37,7 @@ export default function Home() {
               quality={100}
               placeholder='blur'
               alt='Food picture'
-              className="object-cover object-center rounded"
+              className="object-cover object-center rounded-[50%]"
             />
           </div>
         </div>
@@ -49,7 +49,7 @@ export default function Home() {
               quality={100}
               placeholder='blur'
               alt='Food picture'
-              className="object-cover object-center rounded"
+              className="object-cover object-center rounded-[50%]"
             />
           </div>
           <div className="lg:max-w-[60rem] overflow-auto lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start lg:mb-16 md:mb-0 mb-8 items-center md:text-left text-center">
