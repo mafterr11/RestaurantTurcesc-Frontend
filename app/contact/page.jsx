@@ -12,9 +12,9 @@ export const metadata = {
 
 const page = () => {
   return (
-    <div className="lg:py-[10rem] lg:px-12 pt-[12.3rem] pb-10 bg-black/40">
-      <div className="bg-black/40 lg:p-8 container mx-auto flex justify-center items-center flex-wrap-reverse sm:flex-nowrap h-screen">
-        <div className="w-full lg:w-full lg:h-3/4 h-2/4 md:w-1/2 rounted-lg mt-12 lg:mt-0">
+    <div className="lg:py-[10rem] lg:px-12 pb-10 bg-black/40">
+      <div className="container flex justify-center items-center flex-wrap-reverse sm:flex-nowrap  mx-auto bg-black/40 lg:p-8 pt-[7rem] lg:h-screen ">
+        <div className="w-full lg:w-full lg:h-3/4 md:w-1/2 mt-12 lg:mt-0 rounted-lg">
         <iframe  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2848.0129493943437!2d26.05004825471762!3d44.45340569321442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDTCsDI3JzEyLjMiTiAyNsKwMDMnMDYuNyJF!5e0!3m2!1sen!2sat!4v1700651270658!5m2!1sen!2sat" width="100%" height="100%" style={{border: "0"}} allowfullscreen=""></iframe>
         </div>
 
