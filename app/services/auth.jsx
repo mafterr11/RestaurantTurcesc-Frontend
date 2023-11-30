@@ -1,5 +1,7 @@
 "use server";
-import { cookies } from "next/headers";
+import Cookies from "universal-cookie";
+
+const cookies = new Cookies();
 
 export const login = async (email, password) => {
   const res = await fetch("http://localhost:8080/api/v1/auth/login", {
@@ -11,10 +13,7 @@ export const login = async (email, password) => {
   });
 
   const result = await res.json();
-  cookies().set({
-    name: "token",
-    value: result.token,
-  });
+  cookies.set("token", result.token); 
   return result;
 };
 
@@ -28,10 +27,7 @@ export const register = async (firstName, lastName, email, password) => {
   });
 
   const result = await res.json();
-  cookies().set({
-    name: "token",
-    value: result.token,
-  });
+  cookies.set("token", result.token); 
   return result;
 };
 
@@ -40,12 +36,9 @@ export const logout = () => {
 };
 
 export const isLoggedIn = () => {
-  const token = cookies().get("token");
-  console.log(token);
-  if (token) return true;
-  return false;
+  return !!cookies.get("token");
 };
 
 export const getToken = () => {
-  return cookies().get("token")?.value;
+  return cookies.get("token");
 };
