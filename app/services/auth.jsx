@@ -13,6 +13,7 @@ export const login = async (email, password) => {
   });
 
   const result = await res.json();
+  console.log(result);
   cookies.set("token", result.token); 
   return result;
 };
