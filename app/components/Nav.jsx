@@ -93,7 +93,7 @@ const Nav = () => {
           <FontAwesomeIcon
             style={{ color: `${textColor}` }}
             icon={faCartShopping}
-            className='w-6 h-6 ml-3 cursor-pointer'
+            className='w-7 h-7 ml-3 cursor-pointer'
           />
         </div>
 
@@ -121,7 +121,7 @@ const Nav = () => {
         >
           <ul>
             <li
-              className='text-4xl p-4 hover:text-gray-500'
+              className='text-3xl p-4 hover:text-gray-500'
               onClick={handleNav}
             >
               <Link href='/' className='hover'>
@@ -131,7 +131,7 @@ const Nav = () => {
               </Link>
             </li>
             <li
-              className='text-4xl p-4 hover:text-gray-500'
+              className='text-3xl p-4 hover:text-gray-500'
               onClick={handleNav}
             >
               <Link href='/menu' className='hover'>
@@ -141,7 +141,7 @@ const Nav = () => {
               </Link>
             </li>
             <li
-              className='text-4xl p-4 hover:text-gray-500'
+              className='text-3xl p-4 hover:text-gray-500'
               onClick={handleNav}
             >
               <Link href='/gallery' className='hover'>
@@ -151,7 +151,7 @@ const Nav = () => {
               </Link>
             </li>
             <li
-              className='text-4xl p-4 hover:text-gray-500'
+              className='text-3xl p-4 hover:text-gray-500'
               onClick={handleNav}
             >
               <Link href='/contact' className='hover'>
@@ -160,10 +160,12 @@ const Nav = () => {
                 </span>
               </Link>
             </li>
+            {/* Login/Register */}
+            <div className="flex flex-col items-center justify-evenly gap-y-2 mt-2">
             <li
-              className='text-2xl p-4 hover:text-gray-500'
+              className='text-2xl hover:text-gray-500'
               onClick={handleNav}
-            >
+              >
               <Link href='/auth/login' className='hover'>
                 <span>
                   Login
@@ -171,19 +173,20 @@ const Nav = () => {
               </Link>
             </li>
             <li
-              className='text-2xl p-4 hover:text-gray-500'
+              className='text-2xl hover:text-gray-500'
               onClick={handleNav}
-            >
+              >
               <Link href='/auth/register' className='hover'>
                 <span>
                   Register
                 </span>
               </Link>
             </li>
+              </div>
             <li>
               <FontAwesomeIcon
                 icon={faCartShopping}
-                className='w-6 h-6 ml-3 cursor-pointer mt-6'
+                className='w-9 h-9 cursor-pointer mt-6'
               />
             </li>
           </ul>
