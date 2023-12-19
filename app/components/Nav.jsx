@@ -37,7 +37,7 @@ const Nav = () => {
         <h1
           className='cursor-default'
         >
-          Turkish Delirium
+          Turkish.<span className="text-accent">Delirium</span>
         </h1>
         <ul
           style={{ color: `${textColor}` }}

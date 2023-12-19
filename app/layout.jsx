@@ -16,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en' className='h-screen bg-fixed bg-cover bg-center background tracking-wide'>
-      <body className={`${poppins.className} text-white bg-black/70`}>
+      <body className={`${poppins.className} text-white bg-black/75`}>
         <Nav/>
       {children}
         <Footer />

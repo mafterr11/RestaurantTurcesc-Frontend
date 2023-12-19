@@ -22,13 +22,13 @@ const Footer = () => {
       </div>
 
       <div className='flex justify-center items-center gap-4 md:gap-12'>
-        <Link target='_blank' href='https://tiktok.com/'>
+        <Link target='_blank' href='https://tiktok.com/' className="hover:text-accent transition-all duration-500 ease-in-out hover:scale-90">
           <FaTiktok size={30} />
         </Link>
-        <Link target='_blank' href='https://www.instagram.com/'>
+        <Link target='_blank' href='https://www.instagram.com/' className="hover:text-accent transition-all duration-500 ease-in-out hover:scale-90">
           <FaInstagram size={30} />
         </Link>
-        <Link target='_blank' href='https://www.facebook.com/'>
+        <Link target='_blank' href='https://www.facebook.com/' className="hover:text-accent transition-all duration-500 ease-in-out hover:scale-90">
           <IoLogoFacebook size={30} />
         </Link>
       </div>

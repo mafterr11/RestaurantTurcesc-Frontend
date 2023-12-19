@@ -18,8 +18,9 @@ const Gallery = () => {
         <div className='lg:py-[10rem] lg:px-40 pt-[4.3rem]'>
                 <div className="container px-5 py-24 mx-auto flex flex-wrap">
                     <div className="flex flex-col items-center justify-center w-full mb-20 flex-wrap">
-                        <h1 className="mb-8 text-3xl">Explore Our Food</h1>
-                        <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-center font-normal text-xl">Step into our gallery and discover the heart of Turkey. From lively markets to exquisite crafts, each picture tells a story of our culture. Join us on a visual journey through the essence of Turkish dining.</p>
+                    <h1 className="sm:text-4xl text-3xl mb-4 font-medium"><span className="text-accent">Explore</span> Our Food</h1>
+
+                        <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-center font-normal text-xl"><span className="text-accent">Step into</span> our gallery and discover the heart of Turkey. From lively markets to exquisite crafts, each picture tells a story of our culture. <span className="text-accent">Join us</span> on a visual journey through the <span className="text-accent">essence of Turkish dining</span>.</p>
                     </div>
                     <div className="flex flex-wrap md:-m-2 -m-1">
                         <div className="flex flex-wrap w-1/2">

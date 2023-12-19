@@ -15,6 +15,10 @@ module.exports = {
       boxShadow: {
         standard: "0px 0px 8px rgb(100,100,100)",
       },
+      colors: {
+        primary: "black",
+        accent: "#d4b39a",
+      },
     },
   },
   plugins: [],
