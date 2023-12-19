@@ -10,8 +10,8 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <div className='lg:py-[10rem] lg:px-40 pt-[4.3rem] bg-black/40'>
-      <div className="bg-black/50 w-full py-16">
+    <div className='lg:py-[10rem] lg:px-40 pt-[4.3rem] '>
+      <div className=" w-full py-16">
         <div className="container flex items-center justify-center flex-col mx-auto px-2 mb-24 md:mb-0 ">
           <div className="text-center w-full lg:w-2/3 ">
             <h1 className="sm:text-4xl text-3xl mb-4 font-medium">Welcome To Delirium Cuisine</h1>
@@ -20,7 +20,7 @@ export default function Home() {
               elegant and welcoming interior. The restaurant's style mixes classic
               features with Turkish influences from where the cuisine originates,
               giving customers one-of-a-kind and memorable food experiences.</p>
-            <Link className="btn w-2/4" href="/menu">Menu</Link>
+            <Link className="btn w-2/4 hover:bg-black hover:text-white transition-all ease-in-out duration-300" href="/menu">Menu</Link>
           </div>
         </div>
 

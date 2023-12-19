@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className='flex justify-evenly items-center p-6 gap-6 bg-black/80'>
       <div className='flex justify-center items-center gap-6 text-lg'>
-        <GrRestaurant size={50} className='hidden md:block' />
+        <GrRestaurant size={35} className='hidden md:block' />
         <p>
           Project made by{" "}
           <Link
@@ -23,13 +23,13 @@ const Footer = () => {
 
       <div className='flex justify-center items-center gap-4 md:gap-12'>
         <Link target='_blank' href='https://tiktok.com/'>
-          <FaTiktok size={40} />
+          <FaTiktok size={30} />
         </Link>
         <Link target='_blank' href='https://www.instagram.com/'>
-          <FaInstagram size={40} />
+          <FaInstagram size={30} />
         </Link>
         <Link target='_blank' href='https://www.facebook.com/'>
-          <IoLogoFacebook size={40} />
+          <IoLogoFacebook size={30} />
         </Link>
       </div>
     </footer>

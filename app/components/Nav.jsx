@@ -93,7 +93,7 @@ const Nav = () => {
           <FontAwesomeIcon
             style={{ color: `${textColor}` }}
             icon={faCartShopping}
-            className='w-9 h-9 ml-3 cursor-pointer'
+            className='w-6 h-6 ml-3 cursor-pointer'
           />
         </div>
 
@@ -183,7 +183,7 @@ const Nav = () => {
             <li>
               <FontAwesomeIcon
                 icon={faCartShopping}
-                className='w-9 h-9 ml-3 cursor-pointer mt-6'
+                className='w-6 h-6 ml-3 cursor-pointer mt-6'
               />
             </li>
           </ul>
