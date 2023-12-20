@@ -20,9 +20,9 @@ const page = () => {
 
         <div className="text-center flex flex-col w-3/4 text-xl gap-4">
           <h1 className="text-3xl">Contact <span className="text-accent">Us</span></h1>
-          <p><strong className="text-accent">Rezervari:</strong> contact@delirium.ro</p>
+          <p><strong className="text-accent">Reservation:</strong> contact@delirium.ro</p>
           <p><strong className="text-accent">Restaurant:</strong> 021-XXX-230</p>
-          <p><strong className="text-accent">Adresa:</strong> Strada Vidin 58, Bucuresti</p>
+          <p><strong className="text-accent">Adress:</strong> Street Vidin 58, Bucharest</p>
           <div>
           <p><strong className="text-accent">Program:</strong> 12:00 am - 22:00 pm </p>
           <div className="flex justify-center items-center mt-12 gap-12">

@@ -55,7 +55,7 @@ export default function Home() {
           <div className="lg:max-w-[60rem] overflow-auto lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start lg:mb-16 md:mb-0 mb-8 items-center md:text-left text-center">
             <h1 className="sm:text-4xl text-3xl my-4 font-medium text-center"><span className="text-accent">Turkish</span> Dining Experience
             </h1>
-            <p className="leading-relaxed lg:text-lg"><span className="text-accent">Step</span> into a world of choice as you select from our <span className="text-accent">finest cuts</span> of meat, handpicked to meet your preferences. Our unique offering allows you to witness the artistry of our chefs in action as they expertly grill and prepare your <span className="text-accent">chosen meat</span> right before your eyes, infusing each dish with care and precision. <span className="text-accent">Delight</span> in the immersive experience of watching your meal come to life, adding an extra layer of <span className="text-accent">excitement</span> to your dining adventure.</p>
+            <p className="leading-relaxed lg:text-lg"><span className="text-accent">Step</span> into a world of choice as you select from our <span className="text-accent">finest cuts</span> of meat, handpicked to meet your preferences. Our unique offering allows you to witness the artistry of our chefs in action as they expertly grill and prepare your <span className="text-accent">chosen meat</span> right before your eyes, infusing each dish with care and precision.</p>
           </div>
         </div>
 
