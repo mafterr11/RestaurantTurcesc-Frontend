@@ -28,6 +28,7 @@ export const register = async (firstName, lastName, email, password) => {
   });
 
   const result = await res.json();
+  console.log(result);
   cookies.set("token", result.token); 
   return result;
 };
