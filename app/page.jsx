@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className='lg:py-[10rem] lg:px-40 pt-[4.3rem]'>
       <div className=" w-full py-16">
-        <div className="container flex items-center justify-center flex-col mx-auto px-2 mb-24 md:mb-0 ">
+        <div className="container flex items-center justify-center flex-col mx-auto px-2 mb-24 md:mb-0">
           <div className="text-center w-full lg:w-2/3 ">
             <h1 className="sm:text-4xl text-3xl mb-4 font-medium">Welcome To <span className="text-accent">Delirium Cuisine</span></h1>
             <p className="mb-8 leading-relaxed lg:text-lg">Even though it's situated in the heart of <span className="text-accent">Bucharest</span>, neighboring the
